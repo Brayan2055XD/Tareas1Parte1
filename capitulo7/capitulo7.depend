@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1686714458 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\main.c
+	<stdio.h>
+
+1686716909 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\ejemplo7-2.c
+	<stdio.h>
+	<ctype.h>
+
+1686864810 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\programa7-9.c
+	<stdio.h>
+
+1686864952 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\7-10.c
+
+1686865710 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\programa7-10.c
+	<stdio.h>
+	<stdlib.h>
+
+1686866280 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\programa7-11.c
+	<stdio.h>
+	<ctype.h>
+
+1686867353 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\programa7-12.c
+	<stdio.h>
+	<ctype.h>
+
+1686867850 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\programa7-13.c
+	<stdio.h>
+
+1686868572 source:c:\users\braya\onedrive\imágenes\documentos de tareas\programacion 1\capitulo7\programa7-14.c
+	<stdio.h>
+
