@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    // Pregunta inicial
+    printf("Que tipo de dolor sientes?\n");
+    char choice[100];
+    scanf("%s", choice);
+
+    // Verificación del tipo de dolor
+    if (strcmp(choice, "Dolor") == 0) {
+        // Si es "Dolor de Barriga" o "Dolor de cabeza"
+        printf("Dolor de Barriga o Dolor de cabeza?\n");
+        scanf("%s", choice);
+
+        if (strcmp(choice, "Barriga") == 0) {
+            // Si es "Dolor de Barriga"
+            printf("En el estomago o en los Intestinos?\n");
+            scanf("%s", choice);
+
+            if (strcmp(choice, "estomago") == 0) {
+                // Si es "En el estómago"
+                printf("Que comio/bebio antes?\n");
+                scanf("%s", choice);
+
+                if (strcmp(choice, "comio/bebio") == 0) {
+                    // Recomendación específica
+                    printf("Visita a Dr. Victor Morales (Piso 1)\n");
+                } else if (strcmp(choice, "mal") == 0) {
+                    // Recomendación específica
+                    printf("Visita a Dr. Victor Morales (Piso 1)\n");
+                }
+                // Repite para otras opciones...
+            } else if (strcmp(choice, "Intestinos") == 0) {
+                // Si es "En los Intestinos"
+                printf("¿Qué comió/bebió antes?\n");
+                scanf("%s", choice);
+
+                if (strcmp(choice, "comió/bebió") == 0) {
+                    // Recomendación específica
+                    printf("Visita a Dr. Victor Morales (Piso 1)\n");
+                }
+                // Repite para otras opciones...
+            }
+        } else if (strcmp(choice, "cabeza") == 0) {
+            // Si es "Dolor de cabeza"
+            // Repite la lógica para "Dolor de cabeza"...
+        }
+        // Repite para otros tipos de dolor...
+    } else if (strcmp(choice, "Ojos") == 0) {
+        // Repite la lógica para "Dolor de Ojos"...
+    } else if (strcmp(choice, "Muscular") == 0) {
+        // Repite la lógica para "Dolor Muscular"...
+    } else if (strcmp(choice, "oído") == 0) {
+        // Repite la lógica para "Dolor de Oído"...
+    }
+
+    return 0;
+}
+
+
+EL ENLANCE AL ARBOL:::           https://www.mindomo.com/mindmap/qu-tipo-de-dolor-sientes-d2d3d8158c5c4862b8127d4409b1aa7d
